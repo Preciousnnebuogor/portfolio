@@ -4,7 +4,7 @@ export default function Service (){
       <div className={`flex item-center justify-center w-full py-5 h-screen`}>
         <div className={`w-[80%] flex flex-col justify-between gap-x-4`}>
           <div
-            className={`flex items-center justify-center text-2xl font-bold `}
+            className={`flex items-center justify-center text-2xl font-bold animate-bounce`}
           >
             <h1>My Services</h1>
           </div>
@@ -12,7 +12,12 @@ export default function Service (){
             <div
               className={`bg-slate-900 hover:bg-blue-900 px-3 flex flex-col items-center justify-center`}
             >
-              <img src="/nr.png" width="260" height="200"></img>
+              <img
+                src="/nr.png"
+                width="260"
+                height="200"
+                className={`hover:animate-bounce`}
+              ></img>
               <p>
                 Ensuring websites look and work well across different devices
                 (mobile, tablet, desktop) by using responsive frameworks (like
@@ -24,7 +29,12 @@ export default function Service (){
             <div
               className={`bg-slate-900 hover:bg-blue-900 px-3 flex flex-col items-center justify-center`}
             >
-              <img src="/nt.png" width="260" height="200"></img>
+              <img
+                src="/nt.png"
+                width="260"
+                height="200"
+                className={`hover:animate-bounce`}
+              ></img>
               <p>
                 Minimizing loading times by optimizing images, lazy loading,
                 minifying CSS/JS, and implementing code-splitting. Ensuring that
@@ -36,7 +46,12 @@ export default function Service (){
             <div
               className={`bg-slate-900 hover:bg-blue-900 px-3 flex flex-col items-center justify-center`}
             >
-              <img src="/na.png" width="260" height="200"></img>
+              <img
+                src="/na.png"
+                width="260"
+                height="200"
+                className={`hover:animate-bounce`}
+              ></img>
               <p>
                 CSS animations and transitions: Adding visual effects and
                 animations to improve user engagement. JavaScript/jQuery

@@ -4,6 +4,7 @@ import About from "./about";
 import Hero from "./hero";
 import Navbar from "./navbar";
 import Service from "./service";
+import Work from "./work";
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
       <Hero />
       <About/>
       <Service/>
+      <Work/>
     </div>
   );
 }

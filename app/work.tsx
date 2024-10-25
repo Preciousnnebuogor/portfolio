@@ -44,16 +44,18 @@ export default function Work(){
                 <img src="/imgb.jpg" width="260" height="50"></img>
               </div>
               <div
-                className={`bg-slate-900 hover:bg-blue-900 px-3 flex flex-col items-center justify-center hover:animate-pulse`}
+                className={`bg-slate-900 hover:bg-blue-900 px-3 flex flex-col items-center 
+                    justify-center hover:animate-pulse`}
               >
                 <img src="/img2.png" width="220" height="50"></img>
               </div>
             </div>
           )}
 
-          <div className={` flex items-center justify-center `}>
+          <div className={` flex items-center justify-center mt-4`}>
             <button
-              className={`mb-2 border-blue-900 border-2 px-2 rounded  transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 `}
+              className={`mb-2 p-2 rounded  transition ease-in-out 
+                delay-150 bg-blue-900 hover:-translate-y-1 hover:scale-110 hover:bg-red-700 duration-300`}
               onClick={() => {
                 if (!showless) {
                   setShowless(true);

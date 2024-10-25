@@ -4,7 +4,7 @@ export default function Navbar() {
     <div className={``}>
       <div className={`flex items-center justify-between px-20 mt-4`}>
         <div>
-          <p className={`text-2xl font-bold pl-16`}>
+          <p className={`text-2xl font-bold pl-16 animate-pulse`}>
             <span className={`text-blue-300 `}>P</span>recious
           </p>
         </div>

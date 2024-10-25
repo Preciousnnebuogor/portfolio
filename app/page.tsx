@@ -1,6 +1,7 @@
 "use client";
 
 import About from "./about";
+import Contact from "./contact";
 import Hero from "./hero";
 import Navbar from "./navbar";
 import Service from "./service";
@@ -14,6 +15,7 @@ export default function HomePage() {
       <About/>
       <Service/>
       <Work/>
+      <Contact/>
     </div>
   );
 }

@@ -17,7 +17,7 @@ export default function About() {
 
         <div className={`w-[60%]`}>
           <div
-            className={`flex items-center justify-center font-bold text-2xl mb-4 animate-pulse`}
+            className={`flex items-center justify-center font-bold text-2xl mb-4 animate-bounce`}
           >
             <h1>About Me</h1>
           </div>

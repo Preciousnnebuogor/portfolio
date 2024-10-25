@@ -12,7 +12,7 @@ export default function About() {
         <div
           className={`bg-slate-900 w-[30%] flex items-center justify-center`}
         >
-          <img src="/b.png" className={`w-[90%] `}></img>
+          <img src="/new.jpg" className={`w-[100%] h-full`}/>
         </div>
 
         <div className={`w-[60%]`}>

@@ -1,6 +1,10 @@
-"use client"
-export default function Service (){
-    return (
+"use client";
+
+import Navbar from "./navbar";
+
+export default function Service() {
+  return (
+    <div id="service">
       <div className={`flex item-center justify-center w-full py-5 h-screen`}>
         <div className={`w-[80%] flex flex-col justify-between gap-x-4`}>
           <div
@@ -62,5 +66,6 @@ export default function Service (){
           </div>
         </div>
       </div>
-    );
+    </div>
+  );
 }
